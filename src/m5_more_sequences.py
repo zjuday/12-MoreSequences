@@ -322,6 +322,7 @@ def contains_an_a(s):
     #   No fair using the   count   or   find   string methods.
     # -------------------------------------------------------------------------
 
+
     for k in range(len(s)):
         if str(s[k]) == 'a':
             return True
